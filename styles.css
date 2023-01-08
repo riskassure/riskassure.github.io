@@ -23,3 +23,10 @@ div {
 #actions {
     background-color: silver;
 }
+
+#formdata {
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid red;
+}

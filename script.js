@@ -1,6 +1,9 @@
 (function(){
     'use strict';
 
+    const formDataURL = 'http://localhost:4000/index.php';
+    $('#formdata').load(formDataURL);
+
     const startGame = document.getElementById('startgame');
     const gameControl = document.getElementById('gamecontrol');
     const game = document.getElementById('game');
